@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name=HandheldFriendly content=True><meta name=MobileOptimized content=320>
+    <meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+    <meta name="description" content="Sai Chandesh Gurramkonda's professional website">
+    <meta name="keywords" content="Sai,Chandesh,Gurramkonda,Sai Chandesh Gurramkonda,HTML,CSS,AngularJS,PHP,Java,Python,C++,C,Oracle,SQL,MySQL,Database Administrator,OCA,OCP,Bootstrap,Node.js,Mongodb,Bigdata,Express,Java Framework,Java Structs,Photoshop,Summer Intern, Internship,Computer Science, Resume,Work Experience">
+    <meta name="author" content="Sai Chandesh Gurramkonda">
+    <title>Sai Chandesh Gurramkonda</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js">
+    </script>
+    <script src="libs/bower/angular/angular.js"></script>
+    <script src="libs/bower/angular-route/angular-route.js"></script>
+    <script src="js/controller/app.js"></script>
+    <script src="js/controller/route.js"></script>
+    <script src="js/controller/homeController.js"></script>
+    <script src="js/controller/projectController.js"></script>
+    <script src="js/controller/workController.js"></script>
+    <script src="js/controller/certficateController.js"></script>
+    <script src="js/controller/contactController.js"></script>
+    <script src="js/controller/sklController.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+
+<!-- Navigation Bar-->
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+
+        <div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="/">Home</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/work">Work Experience</a></li>
+                <li><a href="/skl">skills</a></li>
+                <li><a href="/certificate">Achivements and certifications</a></li>
+                <li><a href="/contact">Contact</a></li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Body -->
+<!-- Right -->
+<div id="right">
+
+
+    <div ng-view></div>
+
+
+</div>
+
+
+
+<!--left-->
+<div id="left">
+
+    <h4>SAI CHANDESH GURRAMKONDA</h4>
+<h5>RESUME</h5>
+    <a href="pdf/Resume.pdf" target="_blank"><img src="images/resume.jpg" alt="resume" width="200px" height="280px"></a>
+<br><br><h5>OTHER LINKS</h5>
+<a href="https://www.linkedin.com/in/saichandesh" target="_blank"><img src="images/linkendin.png" alt="linkedin/saichandesh" width="50px" height="50px"></a>&nbsp &nbsp &nbsp <a href="https://github.com/saichandesh" target="_blank"><img src="images/git.png" alt="github/saichandesh" width="50px" height="50px"></a>
+</div>
+
+
+</body>
+</html>

@@ -1,9 +1,9 @@
 # Website using AngularJS
 
-This is a simple website developed using AngularJS. It provides the basic knowledge on how to implement AngularJS components such as
+This website uses features of AngularJS such as ng-route, ng-view, ng-controller, ng-app to load faster when the user navigates between different tabs. This website gives brief description of my research, education, projects that i have worked, skills that i have acquired, work experience, achievements and contact information.
 
-```
-ng-controller
-
-```
-
+Technologies used:
+> AngularJS
+> HTML5
+> CSS3
+> BootStrap 
